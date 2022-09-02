@@ -1,0 +1,214 @@
+
+body{
+	background-image: url('header-books.jpg');
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	color:#E8C582;
+}
+/*Menu için css*/
+#menu {
+	background-color: #201500; 
+    border-radius: 5px; 
+    font-family: verdana; 
+    margin: 30px auto; 
+    padding: 5px;
+    text-align: center;
+    width: 1260px;
+}
+
+#menu ul {
+    font-size: 0; 
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li { 
+    padding: 0 5px; position: relative; 
+}
+
+#menu ul li > ul { 
+    display: none; 
+}
+
+#menu > ul > li { 
+    display: inline-block;
+}
+
+#menu > ul > li + li {
+    border-left: 1px solid #CF9F40; 
+}
+
+
+#menu ul li a {
+    border-radius: 3px;
+    color: #F3DEB6;
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 14px; 
+}
+
+#menu ul li:hover > a {
+    background-color: #704B00;
+}
+
+
+ /*yazılar*/
+
+ #ilkdiv { 
+
+width: 500px; 
+
+height:250px;
+
+}
+.şeyda {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #E3B876;
+    margin: 0;
+    width: 200px;
+    height: 300px;
+    float: left;
+    position: relative;
+    top: 50px;
+    left:100px;
+    background-color: #A78A51;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 24px;
+    box-shadow: 4px 4px 4px #C7984F;
+}
+.şeyda p{
+    width: 70px;
+    padding: 20px;
+    height: 10px;
+    position: relative;
+    bottom:30px;
+    left:40px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: #E3B876;
+    text-shadow: 1px 4px 4px black;
+}
+.şeyda img{
+    position: relative;
+    top:6px;
+    -webkit-box-shadow: 0 0 4px 6px #0000002B;
+    -moz-box-shadow: 0 0 4px 6px #0000002B;
+    box-shadow: 0 0 4px 6px #0000002B;
+}
+
+.kayaberk {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #E3B876;
+    margin: 0;
+    width: 200px;
+    height: 300px;
+    float: left;
+    position: relative;
+   top:50px;
+   left:130px;
+    background-color: #A78A51;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 24px;
+    box-shadow: 4px 4px 4px #C7984F;
+}
+.kayaberk p{
+    width: 70px;
+    padding: 20px;
+    height: 10px;
+    position: relative;
+    bottom:30px;
+    left:30px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: #E3B876;
+    text-shadow: 1px 4px 4px black;
+}
+.kayaberk img{
+    position: relative;
+    top:6px;
+    -webkit-box-shadow: 0 0 4px 6px #0000002B;
+    -moz-box-shadow: 0 0 4px 6px #0000002B;
+    box-shadow: 0 0 4px 6px #0000002B;
+}
+.nalkan {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #E3B876;
+    margin: 0;
+    width: 200px;
+    height: 300px;
+    float: left;
+    position: relative;
+   top:-280px;
+   left: 620px;
+  
+    background-color: #A78A51;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 24px;
+    box-shadow: 4px 4px 4px #C7984F;
+}
+.nalkan p{
+    width: 70px;
+    padding: 20px;
+    height: 10px;
+    position: relative;
+    bottom:30px;
+    left:40px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: #E3B876;
+    text-shadow: 1px 4px 4px black;
+}
+.nalkan img{
+    position: relative;
+    top:6px;
+    -webkit-box-shadow: 0 0 4px 6px #0000002B;
+    -moz-box-shadow: 0 0 4px 6px #0000002B;
+    box-shadow: 0 0 4px 6px #0000002B;
+}
+.merve {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #E3B876;
+    margin: 0;
+    width: 200px;
+    height: 300px;
+    float: left;
+    position: relative;
+   top:-280px;
+   left: 650px;
+  
+    background-color: #A78A51;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 24px;
+    box-shadow: 4px 4px 4px #C7984F;
+}
+.merve p{
+    width: 70px;
+    padding: 20px;
+    height: 10px;
+    position: relative;
+    bottom:30px;
+    left:40px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: #E3B876;
+    text-shadow: 1px 4px 4px black;
+}
+.merve img{
+    position: relative;
+    top:6px;
+    -webkit-box-shadow: 0 0 4px 6px #0000002B;
+    -moz-box-shadow: 0 0 4px 6px #0000002B;
+    box-shadow: 0 0 4px 6px #0000002B;
+}

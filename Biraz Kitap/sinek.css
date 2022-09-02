@@ -1,0 +1,91 @@
+body{
+	background-image: url('header-books.jpg');
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	color:#E8C582;
+}
+/*Menu için css*/
+#menu {
+    background-color: #201500; 
+    border-radius: 5px; 
+    font-family: verdana; 
+    margin: 30px auto; 
+    padding: 5px;
+    text-align: center;
+    width: 1260px;
+}
+
+#menu ul {
+    font-size: 0; 
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li { 
+    padding: 0 5px; position: relative; 
+}
+
+#menu ul li > ul { 
+    display: none; 
+}
+
+#menu > ul > li { 
+    display: inline-block;
+}
+
+#menu > ul > li + li {
+    border-left: 1px solid #CF9F40; 
+}
+
+
+#menu ul li a {
+    border-radius: 3px;
+    color: #F3DEB6;
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 14px; 
+}
+
+#menu ul li:hover > a {
+    background-color: #704B00;
+}
+
+/*yazı*/ 
+.meta{
+	padding:5px 20px;
+	background-color: black ;
+			opacity:0.5;
+            filter:alpha(opacity=80);
+}
+.meta p {
+margin:0;
+font-size: 77%;
+color:#EEC37C;
+}
+
+.box{	background-color: rgba(0,0,0, .7);
+text-align: center; 
+			height: 736px;
+			width: 700px;
+			    position: absolute;
+            top:200px;
+            left:300px;
+		}
+		.box p {color: white;
+			font-weight: 400; 
+			padding-top: 5%;}
+				.box br {color: white;
+			font-weight: 400; 
+			padding-top: 5%;}
+				.box  {color: white;
+			font-weight: 400; 
+			padding-top: 5%;}
+			.img{
+				position: absolute;
+				left:60px;
+				top:60px;
+			}
